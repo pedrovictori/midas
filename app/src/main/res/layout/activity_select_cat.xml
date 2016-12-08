@@ -1,0 +1,26 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:background="@color/color_background"
+    tools:context="org.pietrus.midas.SelectCatActivity">
+
+    <!-- Toolbar -->
+    <include layout="@layout/toolbar"/>
+
+    <!-- Resto de layout-->
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="#00000000"
+        android:transcriptMode="alwaysScroll"
+        android:paddingBottom="44dp"
+        android:clipToPadding="false"/>
+
+    <!-- TODO: añadir FAB cuando esté lista la sección Categorías-->
+
+</LinearLayout>

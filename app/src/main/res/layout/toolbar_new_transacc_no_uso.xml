@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toolbar"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:minHeight="?attr/actionBarSize"
+    android:background="@color/color_primary"
+    android:elevation="4dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+   <!-- esto ya lo implementaré en otro momento
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginEnd="16dp"
+        android:text="@string/aceptar"
+        android:id="@+id/bAceptar"
+        android:textColor="@color/color_txt_whi"
+        android:onClick="sePulsaBoton"
+        android:textSize="26sp"
+        style="@android:style/Widget.ActionButton"/>-->
+</android.support.v7.widget.Toolbar>

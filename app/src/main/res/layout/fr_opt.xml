@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_background"
+    tools:context="org.pietrus.midas.FrOpt">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Aquí se mostrarán las opciones generales" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BORRAR TABLA"
+            android:id="@+id/botonbor"
+            android:layout_gravity="center"
+            android:onClick="sePulsaBoton"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LLENAR TABLA"
+            android:id="@+id/botonfil"
+            android:layout_gravity="center"
+            android:onClick="sePulsaBoton"/>
+    </LinearLayout>
+</FrameLayout>

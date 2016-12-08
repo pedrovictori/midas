@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--de momento no lo uso, no conseguí que cambiara el background y el color del texto cuando se seleccionaba un item-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_activated="true" android:color="@color/color_accent"/>
+    <item android:color="@color/color_background" />
+</selector>

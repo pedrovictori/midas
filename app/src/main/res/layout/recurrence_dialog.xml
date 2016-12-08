@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="@dimen/abc_dialog_padding_material"
+              tools:context=".RecurDialogActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/repetir"/>
+
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:id="@+id/spinner"/>
+    </LinearLayout>
+
+    <!-- Cada...-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="10dp"
+            android:text="@string/cada"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_weight="1"
+            android:text="1"
+            android:id="@+id/etCadaN"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="bottom"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:text="textproueba"
+            android:id="@+id/tvCada"/>
+
+    </LinearLayout>
+
+    <!-- Para introducir los botones de días de la semana cuando se los necesite-->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/semanaFr"/>
+
+    <!-- Aceptar y cancelar-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="20dp"
+        style="?android:attr/buttonBarStyle">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancelar"
+            android:id="@+id/bCancelar"
+            android:layout_weight="1"
+            style="?android:attr/buttonBarButtonStyle"
+            android:onClick="sePulsaBoton" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/aceptar"
+            android:id="@+id/bAceptar"
+            android:layout_weight="1"
+            style="?android:attr/buttonBarButtonStyle"
+            android:onClick="sePulsaBoton" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">Midas</string>
+    <string name="inicio">Inicio</string>
+    <string name="presupuesto">Presupuesto</string>
+    <string name="action_settings">Settings</string>
+    <string name="openDrawer">Menú abierto</string>
+    <string name="closeDrawer">Menú cerrado</string>
+
+    <!-- lista de items del menú lateral (navdrawer) -->
+    <string-array name="menu">
+        <item>@string/inicio</item>
+        <item>@string/presupuesto</item>
+        <item>Estadísticas</item>
+        <item>Categorías</item>
+        <item>Sincronización</item>
+        <item>Opciones</item>
+        <item>Ayuda &amp; Feedback</item>
+    </string-array>
+
+    <!--Strings de FrMain-->
+    <string name="empty">No tienes ninguna transacción. Crea una nueva con el botón +</string>
+    <string name="emptyImgAccesibilidad">Imagen de una hucha</string>
+    <string name="elv_item_deleted">Transacción eliminada</string>
+    <string name="elv_n_items_deleted">%1$s transacciones eliminadas</string>
+    <string name="elv_undo">Deshacer</string>
+    <string name="elv_undo_all">Deshacer todo</string>
+
+    <!--Strings de FrBudget-->
+    <string name="emptyb">No tienes ningún presupuesto. Crea uno con el botón +</string>
+    <string name="emptybImgAccesibilidad">Imagen de un hombre sin dinero</string>
+
+    <!--Strings de NewTransaccActivity-->
+    <string name="title_activity_new_transacc">Nueva transacción</string>
+
+    <string name="importe">Introduzca importe</string>
+    <string name="concepto">Concepto</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="switchOn">ingreso</string>
+    <string name="switchOff">gasto</string>
+    <string name="selectCat">Seleccionar categoría</string>
+
+    <!-- lista de items del diálogo de recurrencia -->
+    <string-array name="spinner_dialog">
+        <item>diariamente</item>
+        <item>semanalmente</item>
+        <item>mensualmente</item>
+        <item>anualmente</item>
+    </string-array>
+
+    <string-array name="dia">
+        <item>día</item>
+        <item>días</item>
+    </string-array>
+
+    <string-array name="semana">
+        <item>semana</item>
+        <item>semanas</item>
+    </string-array>
+
+    <string-array name="mes">
+        <item>mes</item>
+        <item>meses</item>
+    </string-array>
+
+    <string-array name="year">
+        <item>año</item>
+        <item>años</item>
+    </string-array>
+
+    <string name="repetir">Repetir</string>
+    <string name="cada">Cada</string>
+
+    <!--Strings de NewBudgetActivity-->
+    <string name="title_activity_new_budget">Nuevo presupuesto</string>
+    <string name="max_gasto">Gasto máximo para esta categoría</string>
+
+    <!--Strings de SelectCatActivity-->
+    <string name="title_activity_select_cat">Seleccionar categoría</string>
+
+    <!--Strings de la clase Hoy-->
+    <string name="hoy">Hoy</string>
+    <string name="tomorrow">Mañana</string>
+    <string name="ayer">Ayer</string>
+
+</resources>
